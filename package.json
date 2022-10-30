@@ -1,0 +1,17 @@
+{
+  "name": "kismet.ts-template",
+  "version": "1.0.0",
+  "description": "Template repo for using kismet.ts",
+  "private": true,
+  "type": "module",
+  "author": {
+    "name": "ghostrider-05"
+  },
+  "scripts": {
+    "start": "npx tsc && node ./dist/index.js"
+  },
+  "dependencies": {
+    "@kismet.ts/core": "^0.1.2",
+    "@kismet.ts/items": "^0.1.2"
+  }
+}
